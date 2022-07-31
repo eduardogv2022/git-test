@@ -1,0 +1,55 @@
+*{margin: 0;}
+body{font-family: sans-serif;
+}
+
+/* .conteiner{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.nav-menu-item{
+    display: flex;
+    font-size: 18px;
+    margin: 0 10px;
+    list-style: none;
+    /* El width max content es para cuando existen dos palabras en una misma oracion delmenu nav y evitar que se corten por ejemplo "sobre nosotros" */
+    width: max-content;
+}
+.buscador{
+    width: 600px;
+}
+.notificaciones{
+    width: 70px;
+    height: 70px;
+}
+.iconomensaje{
+    width: 30px;
+    height: 30px;
+}
+.iconoperfil{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.nav-menu-link:hover{
+    background-color: rgb(rgba(0, 213, 255, 0.42), green, blue);
+}
+.iconospelicula{
+    /* la palabra DISPLAY:flex: ES PARA INVOCAR EL FLEX en los elmentos  QUE CONTIENE DENTRO, es como se inicia; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.iconospeli{
+    margin: 10px;
+    border-radius: 20px;
+}
